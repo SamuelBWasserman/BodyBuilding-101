@@ -1,0 +1,36 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samuelstudios.gainsmaker.Inspiration"
+
+    >
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/music"
+            android:background="@android:color/holo_red_dark"
+            android:id="@+id/wkrbtn"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/videos"
+            android:id="@+id/nutrBtn"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_red_dark"
+            />
+    </TableRow>
+
+
+</TableLayout>
+

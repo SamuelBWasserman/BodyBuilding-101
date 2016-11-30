@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sam.gainsbysamcobcorperman.com.samuelstudios.gainsmaker.WorkoutSelectionScreen"
+    android:background="@drawable/person"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bisBtn"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:id="@+id/quadsBtn"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/absBtn"
+        android:layout_alignStart="@+id/bisBtn"
+        android:layout_alignEnd="@+id/absBtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instr"
+        android:id="@+id/instruction"
+        android:textColor="@color/red"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChestBtn"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/bisBtn"
+        android:layout_alignStart="@+id/quadsBtn"
+        android:layout_alignEnd="@+id/instruction" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/absBtn"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/ChestBtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shouldersBtn"
+        android:background="@android:color/transparent"
+        android:layout_alignBaseline="@+id/bisBtn"
+        android:layout_alignBottom="@+id/bisBtn"
+        android:layout_alignEnd="@+id/ChestBtn"
+        android:layout_marginEnd="13dp" />
+
+
+</RelativeLayout>

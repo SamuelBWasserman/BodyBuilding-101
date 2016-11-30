@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.samuelstudios.gainsmaker.Nutrition"
+    android:background="@android:color/holo_red_dark"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id7"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nutritionTitle"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nutrExp"
+        android:id="@+id/expl"
+        android:padding="0dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/arnold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dietBtn"
+        android:id="@+id/btn2"
+        android:textSize="12dp"
+        android:background="@android:color/black"
+        android:layout_margin="4dp"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/suppBtn"
+        android:textSize="12dp"
+        android:background="@android:color/black"
+        android:id="@+id/button"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/arnold"
+        android:layout_height="150dp"
+        android:src="@drawable/nutritionpic"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/adView1" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/foodsBtn"
+        android:layout_marginTop="12dp"
+        android:id="@+id/btn1"
+        android:background="@android:color/black"
+        android:textSize="12dp"
+        android:layout_below="@+id/expl"
+        android:layout_alignStart="@+id/btn2" />
+
+
+</RelativeLayout>

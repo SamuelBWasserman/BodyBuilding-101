@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_easy_workout_screen_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samuelstudios.gainsmaker.EasyWorkoutScreenTwo">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <Button
+
+                android:text="@string/chest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/chestBtn"
+                android:background="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/back_and_biceps"
+                android:id="@+id/bisBtn"
+                android:background="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/absBtn"
+                android:id="@+id/absBtn"
+                android:background="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/shouldBtn"
+                android:id="@+id/shouldersBtn"
+                android:background="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/legBtn"
+                android:id="@+id/legsBtn"
+                android:background="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

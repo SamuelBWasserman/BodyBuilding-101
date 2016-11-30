@@ -1,0 +1,114 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sam.gainsbysamcobcorperman.com.samuelstudios.gainsmaker.Supplements"
+    android:background="@android:color/holo_red_dark"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id6"
+        android:layout_below="@+id/suppsExpl">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:text="@string/supps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        />
+    <TextView
+        android:text="@string/suppsIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:id="@+id/suppsExpl"
+        />
+    <TextView
+        android:text="@string/protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:id="@+id/protein"
+        android:layout_below="@id/adView1"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/proteinpowder"
+        android:layout_below="@+id/protein"
+        android:id="@+id/powderpic"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:text="@string/proteinDescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/powderpic"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:id="@+id/proteinDescr"
+        />
+    <TextView
+        android:text="@string/creatine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:id="@+id/creatine"
+        android:layout_below="@id/proteinDescr"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/creatine"
+        android:layout_below="@+id/creatine"
+        android:id="@+id/creatinePic"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:text="@string/creatineDescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creatinePic"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:id="@+id/creatineDescr"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

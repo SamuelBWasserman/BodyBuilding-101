@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Gains Maker Bodybuilding Hacks</string>
+    <string name="greeting1">Welcome To Gains</string>
+    <string name="greeting2">by Samcob Corperman</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomeBtn">Enter</string>
+    <string name="bio">Welcome to Bodybuilding 101. This app is comprised of workouts, nutrition tips, and tools to help you build a better you. </string>
+    <color name="red">#cc3300</color>
+    <color name="white">#ffffff</color>
+    <string name="title_activity_selection_screen">SelectionScreen</string>
+    <string name="workoutBtn">Workouts</string>
+    <string name="NutritionBtn">Nutrition</string>
+    <string name="inspBtn">Inspiration</string>
+    <string name="contBtn">Contact Us</string>
+    <string name="title_activity_workout_selection_screen">WorkoutSelectionScreen</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="back">Back</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="quads">Quads</string>
+
+    <string name="instr">Tap on a muscle</string>
+    <string name="title_activity_chest">Chest</string>
+
+    <string name="chestIntro">Chest Day</string>
+    <string name="chestExp">Chest has always been my favorite muscle group to work on. The pump you feel after a good chest workout is like none other.</string>
+    <string name="bench">Workout #1: The Bench Press</string>
+    <string name="benchPressExp">Lay down on the bench with a slight arch in your back. Grip the bar at about shoulder width, making sure to keep your wrists as straight as possible, for maximum force upwards. Lower the bar to an inch above your chest and back up. 6-8 Reps.</string>
+    <string name="incPress">Workout #2: Incline Dumbbell Press</string>
+    <string name="incPressExp">Lay down on an inclined bench at a 30 degree angle. Raise dumbells from starting position to nearly touching each other above your head. Repeat 8-12 reps.</string>
+    <string name="dumbFlys">Workout #3: Dumbbell Flys</string>
+    <string name="dumbFlysExp">Same setup as the incline bench. This time start with arms extended outwards and while keeping your arms as straight as possible, lower your hands so they are both extended. 8-10 reps.</string>
+    <string name="pushups">Workout #4: Weighted Pushups</string>
+    <string name="pushupsExp">Your run of the mill pushup, but with a twist! Add weight on your back for extra gains.</string>
+    <string name="tris">Workout #5: Tricep Extensions</string>
+    <string name="trisExp">Great tricep workout. Hold a barbell over your head while laying down. Lower it to your forehead and repeat.</string>
+
+
+    <string name="shoulderDay">Shoulder Day</string>
+    <string name="shoulderIntro">Shoulders has always been a weakness of mine. I find the only way to get big shoulders is to do as many sets as I can until failure.</string>
+    <string name="shoulderPress">Workout #1: Shoulder Press</string>
+    <string name="shoulderPressExp">Begin with two dumbells resting on your knees. Pick up the dumbbells so your hands are at your ears and your elbows are at a 90 degree angle to your sides. Lift weights until arms are fully extended. 8-12 reps.</string>
+    <string name="shrugs">Workout #2: Shoulder Shrugs</string>
+    <string name="shrugsExp">Hold two dumbbells at your sides. While keeping your arms straight, raise your shoulders to your ears and squeeze your shoulder muscles. 8-12 reps.</string>
+    <string name="sideRaise">Workout #3: Side Lateral Raise</string>
+    <string name="sideRaiseExp">Begin with a dumbbell in each hand at your sides. Keeping your arms straight, raise both of your arms until they are fully extended and at a 90 degree angle to your hip. 8-12 reps.</string>
+    <string name="shoulderFlyes">Workout #4: Reverse Machine Flyes</string>
+    <string name="shoulderFlyesExp">Facing the cable flyes machine, sit and grab handles. Move arms backwards and squeeze your shoulder blades. 8-12 reps.</string>
+
+    <string name="armsDay">Biceps and Back</string>
+    <string name="bisandbackinstr">Biceps and Back go hand and hand. Really try and work until failure on these. Failing on a bicep workout is much less dangerous than failing on the bench.</string>
+    <string name="pullups">Workout #1: Pullups</string>
+    <string name="pullupsExp">Standard pullups. Try different grips. Try not to cheat</string>
+    <string name="tBar">Workout #2: Lying T-Bar Row</string>
+    <string name="tBarExp">Fully contract your lats on your way up and fully extend on your way down. Like pull-ups, this movement is great for building a wide back.</string>
+    <string name="latPulldowns">Workout #3: Lat Pulldowns</string>
+    <string name="latPulldownsExp">Using a normal grip, pull down on the bar and touch it to your chest. 8-12 reps.</string>
+    <string name="barbCurl">Workout #4: Standing Barbell Curl</string>
+    <string name="barbCurlExp">Without moving your legs, curl the bar, keeping your elbows in place.</string>
+
+    <string name="legDay">Leg Day</string>
+    <string name="quadsIntro">Nobody likes leg day, but it is actually the most important. The legs are the home to the quads, glutes, hamstrings, and calfs which are all huge muscles that many people overlook. Working them out releases a large ammount of hgh(human growth hormone) which can help build mass elsewhere in the body.</string>
+    <string name="squats">Workout #1: Squats</string>
+    <string name="squatsExp">Squatting is a compound movement. It works your glutes as well as your quads, back, and abs. Make sure to pay the most attention to squats on leg. 8-12 reps</string>
+    <string name="legExt">Workout #2: Leg Extensions</string>
+    <string name="legExtExp">Leg extensions are strictly a quad movement and great for building mass on your quads. Read the machines instructions and follow them closely. 8-12 reps</string>
+    <string name="legPress">Workout #3: Leg Press</string>
+    <string name="legPressExp">Use the decline leg press setup. This workout is great for you glutes and quads. Make sure to go down all the way. 8-12 reps.</string>
+    <string name="calfRaise">Workout #4: Calf Raise</string>
+    <string name="calfRaiseExp">Grab two dumbells and hold them at your sides. Using your calves, rise to your tippy toes. 8-12 reps.</string>
+
+    <string name="abDay">Path To The Six Pack</string>
+    <string name="abDayExp">What is the most aesthetically pleasing part of the body to the ladies? The abs of course. Make sure to include abdominal exercises in your routine to get that 6-pack</string>
+    <string name="abRoller">Workout #1: Ab Roller</string>
+    <string name="abRollerExp">Laying down on a mat, use your abs to roll the wheel forward, keeping your back straight. 8-12 reps</string>
+    <string name="legRaises">Workout #2: Leg Raises</string>
+    <string name="legRaisesExp">Either hanging or laying down, raise both your feet up to your hip while keeping your legs straight. 8-12 reps.</string>
+    <string name="declCrunches">Workout #3: Weighted Decline Crunches</string>
+    <string name="declCrunchesExp">Take a weight and put it behind your head and do crunches. Makes the abs burn. 8-12 reps.</string>
+
+    <string name="music">Gym Music</string>
+    <string name="videos">Inspiration Videos</string>
+
+
+    <string name="musicintro">Some Good Music To Pump You Up</string>
+
+
+    <string name="contactUs">Email us at GainsMakerApp@gmail.com</string>
+    <string name="contactUs2">Headquartered in Randolph New Jersey</string>
+    <string name="credits">Gains Maker</string>
+
+
+    <string name="nutritionTitle">How To Eat</string>
+    <string name="nutrExp">What you eat is equally, if not more important than how you lift. You are what you eat right? So if you want to make gains, you need to eat gains!.</string>
+    <string name="foodsBtn">Food</string>
+    <string name="dietBtn">Create Your Own Diet Plan (New)</string>
+
+    <string name="suppBtn">Supplements</string>
+
+
+    <string name="foodIntro">Food</string>
+    <string name="foodBio">Here is a list of foods that are straight up gains. Enjoy.</string>
+    <string name="eggs">Eggs</string>
+    <string name="eggsBio">Eggs are an amazing source of protein and good fats that your body needs. The good thing about eggs is that it is one of the only good breakfast options in a world filled with pancakes and waffles. Make sure to eat a few of these every day and just watch how much you grow. </string>
+    <string name="chicken">Chicken</string>
+    <string name="chickenBio">My personal favorite meat. Goes well with anything. Burritos, wraps, over a salad, you name it. Chicken is a lean meat and contains less fat than red meat.</string>
+    <string name="tuna">Tuna</string>
+    <string name="tunaBio">Great source of protein and many essential amino acids and fish oil. Good for the heart, brain, and muscles. Spread a little tuna on a bagel, or some whole wheat bread and enjoy a mouthful of gains. Tuna is a great food to eat on abdominal day.</string>
+
+    <string name="breakfast">3 Eggs and 2 slices of whole wheat toast with butter and jelly.</string>
+    <string name="breakfastIntro">BreakFast</string>
+    <string name="lunchIntro">Lunch</string>
+    <string name="dinnerIntro">Dinner</string>
+    <string name="dinnerEntries">Steak and rice or whole wheat pasta. Make sure to be eating whole grains and some kind of meat. Eat salad as well for key vitamins.</string>
+    <string name="lunchEntries">Turkey sandwich with water. Soup and salad on the side. Eat with a protein shake.</string>
+
+    <string name="supps">Supplements</string>
+    <string name="suppsIntro">Supplements do not mean drugs or steroids. Supplements are nutrients you can not get enough of simply by eating normally. They are important for making gains, and these are the ones you should be using.</string>
+    <string name="protein">Protein Powder</string>
+    <string name="proteinDescr">Protein powder is the most important supplement. You need it to rebuild muscle and get stronger. It is recommended that you eat 1 gram of protein for every pound you weigh everyday.</string>
+    <string name="creatine">Creatine</string>
+    <string name="creatineDescr">Do not be afraid of the drug sounding name. Creatine is a naturally ocurring chemical in the body, that when supplemented, can improve strength and size. Make sure you drink PLENTY of water while supplementing creatine.</string>
+
+
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="title_activity_shoulders">Shoulders</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_inspiration">Inspiration</string>
+    <string name="title_activity_music_selection_screen">MusicSelectionScreen</string>
+    <string name="title_activity_videos">Videos</string>
+    <string name="title_activity_biceps">Biceps</string>
+    <string name="title_activity_nutrition">Nutrition</string>
+    <string name="title_activity_quads">Quads</string>
+    <string name="title_activity_abs">Abs</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_diet_plan">DietPlan</string>
+    <string name="title_activity_supplements">Supplements</string>
+
+
+    <string name="banner_ad_unit_id"> ca-app-pub-7922851739835700/3884720071</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-7922851739835700/3686243678</string>
+    <string name="banner_ad_unit_id3">ca-app-pub-7922851739835700/3258938079</string>
+    <string name="banner_ad_unit_id4">ca-app-pub-7922851739835700/2009204077</string>
+    <string name="banner_ad_unit_id5">ca-app-pub-7922851739835700/3485937273</string>
+    <string name="banner_ad_unit_id6">ca-app-pub-7922851739835700/5964738879</string>
+    <string name="banner_ad_unit_id7">ca-app-pub-7922851739835700/7162270477</string>
+    <string name="banner_ad_unit_id8">ca-app-pub-7922851739835700/5545936476</string>
+
+    <string name="enter">Enter</string>
+    <string name="bummer">Available in version 2.0</string>
+
+
+    <string name="addFoodBtn">Add Food</string>
+    <string name="deleteFoodBtn">Delete Food</string>
+    <string name="title_activity_easy_workout_screen">EasyWorkoutScreen</string>
+    <string name="back_and_biceps">Back and Biceps</string>
+    <string name="chest">Chest</string>
+    <string name="absBtn">Abs</string>
+    <string name="shouldBtn">Shoulders</string>
+    <string name="legBtn">Legs</string>
+</resources>

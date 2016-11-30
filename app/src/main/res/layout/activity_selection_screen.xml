@@ -1,0 +1,60 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samuelstudios.gainsmaker.SelectionScreen"
+
+    >
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+
+        >
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:text="@string/workoutBtn"
+       android:background="@android:color/holo_red_dark"
+       android:id="@+id/wkrbtn"
+       android:layout_margin="5dp"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="@string/NutritionBtn"
+        android:id="@+id/nutrBtn"
+
+        android:background="@android:color/holo_red_dark"
+        />
+    </TableRow>
+    <TableRow
+
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/inspBtn"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/inspBtn"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="@string/contBtn"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/contBtn" />
+    </TableRow>
+
+</TableLayout>
+
